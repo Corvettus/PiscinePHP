@@ -11,7 +11,7 @@
             header.main_title {
                 color: white;
                 text-align: center;
-                font-size: larger;
+                font-size: xx-large;
             }
             table.shops_block {
                 margin: auto;
@@ -19,7 +19,6 @@
             }
             td.img_shop_logo {
                 text-align: center;
-                align-items: center;
                 margin: auto;
             }
             img.shop_logo {
@@ -33,9 +32,13 @@
             footer.author {
                 size: 100%;
                 font-style: italic;
-                font: monospace;
+                font-family: monospace;
                 text-align: right;
                 border-top: thin solid black;
+                padding-right: 5px;
+            }
+            td {
+                text-align: center;
             }
         </style>
     </head>
@@ -47,16 +50,14 @@
             <tr>
                 <td class="img_shop_logo">
                     <img class="shop_logo" src="https://www.akit.ru/wp-content/uploads/2018/03/wildberries-logo.png">
-                    <rt>
-                        <a href="https://www.wildberries.ru/">WildBerries</a>
-                    </rt>
                 </td>
                 <td class="img_shop_logo">
-                        <img class="shop_logo" src="https://toplogos.ru/images/logo-ozon-ru.png">
-                    <rt>
-                        <a href="https://www.ozon.ru/">Ozon</a>
-                    </rt>
+                    <img class="shop_logo" src="https://toplogos.ru/images/logo-ozon-ru.png">
                 </td>
+            </tr>
+            <tr>
+                <td><rt><a href="https://www.wildberries.ru/">WildBerries</a></rt></td>
+                <td><rt><a href="https://www.ozon.ru/">Ozon</a></rt></td>
             </tr>
         </table>
         <footer class=author>&#169;tlynesse 2019</footer>
