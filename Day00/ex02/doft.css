@@ -58,7 +58,7 @@ img {
 
 /* Указываем понятную периодичность в потоке данных у article*/
 article > * + * {
-  margin-top: 1em;
+  margin-top: 20px;
 }
 
 /* Наследуем шрифты для инпутов и кнопок */
@@ -81,3 +81,149 @@ select {
 
 /*Сброс успешно завершен*/
 
+body {
+  background-color: #505050;
+}
+
+container {
+  display: grid;
+  grid-gap: 15px 20px;
+}
+
+container.total {
+  grid-template-columns: 140px 1000px 140px;
+  grid-template-rows: auto auto auto;
+}
+
+container.header {
+  grid-area: 1/1/2/4;
+  width: 1420px;
+  height: 137px;
+}
+
+container.left {
+  grid-area: 2/1/3/2;
+}
+
+container.cluster {
+  grid-area: 2/2/3/3;
+}
+
+container.right {
+  grid-area: 2/3/3/4;
+  position: relative;
+}
+
+container.bottom {
+  grid-area: 3/1/4/2;
+}
+
+container.header,
+container.left,
+container.cluster,
+container.right {
+  background-color: #909090;
+  border-radius: 9px;
+  box-shadow: 10px 10px 10px black;
+ 
+}
+
+container.nav {
+  width: 426px;
+}
+
+container.logo{
+  padding: 10px;
+}
+
+container.logo img{
+  width: 426px;
+}
+
+container.loupe{
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  top: 10px;
+  left: 10px;;
+}
+
+container.nav_buttons img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  padding-bottom: 6px;
+}
+
+container.arrow
+{
+  padding-top: 14px;
+  padding-bottom: 5px;
+}
+
+container.main
+{
+  padding-bottom: 1px;
+}
+
+container.oeil
+{
+  border: red solid 5px;
+  border-radius: 5px;
+}
+
+container.outil
+{
+  padding-top: 1px;
+}
+
+container.chat-icon
+{
+  padding-top: 5px;
+}
+
+container.cluster
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+container.cluster img
+{
+    width: 1000px;
+    height: 562px;
+    padding: 10px;
+    padding-bottom: 6px;
+}
+
+container.book img
+{
+    width: 70px;
+    height: 96px;
+    padding-top: 15px;
+}
+
+container.towel img
+{
+    height: 52px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+}
+
+container.bricks
+{
+    width: 120px;
+    height: 70px;
+    background-image: url(resources/brick.jpg);
+}
+
+container.bottom {
+  width: 520px;
+  height: 170px;
+  border-radius: 9px;
+  box-shadow: 10px 10px 10px black;
+  background-color: #86FF86;
+  position: relative;
+  top: -86px;
+  left: -495px;
+}

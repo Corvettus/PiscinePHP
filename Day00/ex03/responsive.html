@@ -1,11 +1,780 @@
 <!DOCTYPE html>
-<html> 
- <head>
-  <title>Название страницы<title>
- </head>
- <body>
-  <h1>Заголовок статьи</h1>
-  <p>Абзац
-   статьи</p>
- </body>
+<html>
+
+<head>
+    <meta name="main" http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ТАБЛИЦА МЕНДЕЛЕЕВА</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+
+        header.main_title {
+            text-align: center;
+            font-size: larger;
+            align-content: center;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        td.img_shop_logo {
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        img.shop_logo {
+            height: 500px;
+            width: 500px;
+            margin: auto;
+        }
+
+        rt {
+            font-size: small;
+        }
+
+        footer.author {
+            size: 100%;
+            font-style: italic;
+            font: monospace;
+            text-align: right;
+            border-top: thin solid black;
+            padding-right:5px;
+        }
+
+        table.mendeleiev {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        table.mendeleiev td {
+            border: 6px groove lightskyblue;
+            width: 5%;
+            border-spacing: 7px 7px;
+        }
+
+        table.mendeleiev td.mendeleiev_group {
+            text-align: center;
+            font-size: 1.2vw;
+        }
+
+        table.mendeleiev td.mendeleiev_period {
+            text-align: center;
+            font-size: 1.2vw;
+        }
+
+        table.mendeleiev td.mendeleiev_elem div.m_elem_weight {
+            font-size: 0.5vw;
+            text-align: right;
+            margin-bottom: 10%;
+        }
+
+        table.mendeleiev td.mendeleiev_elem div.m_elem_id {
+            font-size: 1.2vw;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table.mendeleiev td.mendeleiev_elem div.m_elem_num {
+            font-size: 0.5vw;
+            text-align: left;
+            margin-top: 10%;
+        }
+
+        table.mendeleiev td.none_elem {
+            border-style: none;
+        }
+
+        table.mendeleiev td div.m_group {
+            text-align: right;
+            margin-bottom: 70%;
+            font-weight: bold;
+            font-size: 0.7vw;
+        }
+
+        table.mendeleiev td div.m_period {
+            text-align: left;
+            margin-top: 70%;
+            font-weight: bold;
+            font-size: 0.7vw;
+        }
+
+        table.mendeleiev td.elems_title {
+            font-size: 0.7vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main_title">
+        <h1>ТАБЛИЦА МЕНДЕЛЕЕВА</h1>
+        <img src="https://img.youtube.com/vi/dy45vBUll0E/0.jpg" width="100%" height="100%">
+    </header>
+    <table class="mendeleiev">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="m_group">ГРУППА&rarr;</div>
+                    <div class="m_period">ПЕРИОД&darr;</div>
+                </td>
+                <td class="mendeleiev_group">1</td>
+                <td class="mendeleiev_group">2</td>
+                <td class="mendeleiev_group">3</td>
+                <td class="mendeleiev_group">4</td>
+                <td class="mendeleiev_group">5</td>
+                <td class="mendeleiev_group">6</td>
+                <td class="mendeleiev_group">7</td>
+                <td class="mendeleiev_group">8</td>
+                <td class="mendeleiev_group">9</td>
+                <td class="mendeleiev_group">10</td>
+                <td class="mendeleiev_group">11</td>
+                <td class="mendeleiev_group">12</td>
+                <td class="mendeleiev_group">13</td>
+                <td class="mendeleiev_group">14</td>
+                <td class="mendeleiev_group">15</td>
+                <td class="mendeleiev_group">16</td>
+                <td class="mendeleiev_group">17</td>
+                <td class="mendeleiev_group">18</td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">1</td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">1,0079</div>
+                    <div class="m_elem_id">H</div>
+                    <div class="m_elem_num">1</div>
+                </td>
+                <td class="none_elem"></td>
+                <td class="none_elem" rowspan="3" colspan="10"></td>
+                <td class="none_elem" colspan="5"></td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">4,0026</div>
+                    <div class="m_elem_id">He</div>
+                    <div class="m_elem_num">2</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">2</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">6,94</div>
+                    <div class="m_elem_id">Li</div>
+                    <div class="m_elem_num">3</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">9,012</div>
+                    <div class="m_elem_id">Be</div>
+                    <div class="m_elem_num">4</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">10,811</div>
+                    <div class="m_elem_id">B</div>
+                    <div class="m_elem_num">5</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">12,011</div>
+                    <div class="m_elem_id">C</div>
+                    <div class="m_elem_num">6</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">14,0067</div>
+                    <div class="m_elem_id">N</div>
+                    <div class="m_elem_num">7</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">15,999</div>
+                    <div class="m_elem_id">O</div>
+                    <div class="m_elem_num">8</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">18,998</div>
+                    <div class="m_elem_id">F</div>
+                    <div class="m_elem_num">9</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">20,179</div>
+                    <div class="m_elem_id">Ne</div>
+                    <div class="m_elem_num">10</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">3</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">22,989</div>
+                    <div class="m_elem_id">Na</div>
+                    <div class="m_elem_num">11</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">24,305</div>
+                    <div class="m_elem_id">Mg</div>
+                    <div class="m_elem_num">12</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">26,981</div>
+                    <div class="m_elem_id">Al</div>
+                    <div class="m_elem_num">13</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">28,086</div>
+                    <div class="m_elem_id">Si</div>
+                    <div class="m_elem_num">14</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">30,973</div>
+                    <div class="m_elem_id">P</div>
+                    <div class="m_elem_num">15</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">32,06</div>
+                    <div class="m_elem_id">S</div>
+                    <div class="m_elem_num">16</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">35,453</div>
+                    <div class="m_elem_id">Cl</div>
+                    <div class="m_elem_num">17</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">39,948</div>
+                    <div class="m_elem_id">Ar</div>
+                    <div class="m_elem_num">18</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">4</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">39,098</div>
+                    <div class="m_elem_id">K</div>
+                    <div class="m_elem_num">19</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">40,08</div>
+                    <div class="m_elem_id">Ca</div>
+                    <div class="m_elem_num">20</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">44,956</div>
+                    <div class="m_elem_id">Sc</div>
+                    <div class="m_elem_num">21</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">47,9</div>
+                    <div class="m_elem_id">Ti</div>
+                    <div class="m_elem_num">22</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">50,942</div>
+                    <div class="m_elem_id">V</div>
+                    <div class="m_elem_num">23</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">51,996</div>
+                    <div class="m_elem_id">Cr</div>
+                    <div class="m_elem_num">24</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">54,938</div>
+                    <div class="m_elem_id">Mn</div>
+                    <div class="m_elem_num">25</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">55,847</div>
+                    <div class="m_elem_id">Fe</div>
+                    <div class="m_elem_num">26</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">58,933</div>
+                    <div class="m_elem_id">Co</div>
+                    <div class="m_elem_num">27</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">58,7</div>
+                    <div class="m_elem_id">Ni</div>
+                    <div class="m_elem_num">28</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">63,546</div>
+                    <div class="m_elem_id">Cu</div>
+                    <div class="m_elem_num">29</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">65,38</div>
+                    <div class="m_elem_id">Zn</div>
+                    <div class="m_elem_num">30</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">69,72</div>
+                    <div class="m_elem_id">Ga</div>
+                    <div class="m_elem_num">31</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">72,59</div>
+                    <div class="m_elem_id">Ge</div>
+                    <div class="m_elem_num">32</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">74,921</div>
+                    <div class="m_elem_id">As</div>
+                    <div class="m_elem_num">33</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightgreen">
+                    <div class="m_elem_weight">78,96</div>
+                    <div class="m_elem_id">Se</div>
+                    <div class="m_elem_num">34</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">79,904</div>
+                    <div class="m_elem_id">Br</div>
+                    <div class="m_elem_num">35</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">83,8</div>
+                    <div class="m_elem_id">Kr</div>
+                    <div class="m_elem_num">36</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">5</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">85,47</div>
+                    <div class="m_elem_id">Rb</div>
+                    <div class="m_elem_num">36</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">87,62</div>
+                    <div class="m_elem_id">Sr</div>
+                    <div class="m_elem_num">38</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">88,906</div>
+                    <div class="m_elem_id">Y</div>
+                    <div class="m_elem_num">39</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">91,22</div>
+                    <div class="m_elem_id">Zr</div>
+                    <div class="m_elem_num">40</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">92,906</div>
+                    <div class="m_elem_id">Nb</div>
+                    <div class="m_elem_num">41</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">95,94</div>
+                    <div class="m_elem_id">Mo</div>
+                    <div class="m_elem_num">42</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">98,91</div>
+                    <div class="m_elem_id">Tc</div>
+                    <div class="m_elem_num">43</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">101,07</div>
+                    <div class="m_elem_id">Ru</div>
+                    <div class="m_elem_num">44</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">102,905</div>
+                    <div class="m_elem_id">Rh</div>
+                    <div class="m_elem_num">45</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">106,4</div>
+                    <div class="m_elem_id">Pd</div>
+                    <div class="m_elem_num">46</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">107,868</div>
+                    <div class="m_elem_id">Ag</div>
+                    <div class="m_elem_num">47</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">112,41</div>
+                    <div class="m_elem_id">Cd</div>
+                    <div class="m_elem_num">48</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">114,82</div>
+                    <div class="m_elem_id">In</div>
+                    <div class="m_elem_num">49</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">118,7</div>
+                    <div class="m_elem_id">Sn</div>
+                    <div class="m_elem_num">50</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">121,75</div>
+                    <div class="m_elem_id">Sb</div>
+                    <div class="m_elem_num">51</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="olivedrab">
+                    <div class="m_elem_weight">127,6</div>
+                    <div class="m_elem_id">Te</div>
+                    <div class="m_elem_num">52</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">126,904</div>
+                    <div class="m_elem_id">I</div>
+                    <div class="m_elem_num">53</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">131,3</div>
+                    <div class="m_elem_id">Xe</div>
+                    <div class="m_elem_num">54</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">6</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">132,905</div>
+                    <div class="m_elem_id">Cs</div>
+                    <div class="m_elem_num">55</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">137,33</div>
+                    <div class="m_elem_id">Ba</div>
+                    <div class="m_elem_num">56</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">138,91-174,97</div>
+                    <div class="m_elem_id">La-Lu</div>
+                    <div class="m_elem_num">57-71</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">178,49</div>
+                    <div class="m_elem_id">Hf</div>
+                    <div class="m_elem_num">72</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">180,948</div>
+                    <div class="m_elem_id">Ta</div>
+                    <div class="m_elem_num">73</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">183,85</div>
+                    <div class="m_elem_id">W</div>
+                    <div class="m_elem_num">74</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">186,21</div>
+                    <div class="m_elem_id">Re</div>
+                    <div class="m_elem_num">75</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">190,2</div>
+                    <div class="m_elem_id">Os</div>
+                    <div class="m_elem_num">76</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">190,2</div>
+                    <div class="m_elem_id">Ir</div>
+                    <div class="m_elem_num">77</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">195,09</div>
+                    <div class="m_elem_id">Pt</div>
+                    <div class="m_elem_num">78</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">196,967</div>
+                    <div class="m_elem_id">Au</div>
+                    <div class="m_elem_num">79</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">200,59</div>
+                    <div class="m_elem_id">Hg</div>
+                    <div class="m_elem_num">80</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">204,37</div>
+                    <div class="m_elem_id">Tl</div>
+                    <div class="m_elem_num">81</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">207,19</div>
+                    <div class="m_elem_id">Pb</div>
+                    <div class="m_elem_num">82</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">208,98</div>
+                    <div class="m_elem_id">Bi</div>
+                    <div class="m_elem_num">83</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">[209]</div>
+                    <div class="m_elem_id">Po</div>
+                    <div class="m_elem_num">84</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">[210]</div>
+                    <div class="m_elem_id">At</div>
+                    <div class="m_elem_num">85</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">[222]</div>
+                    <div class="m_elem_id">Rn</div>
+                    <div class="m_elem_num">86</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mendeleiev_period">7</td>
+                <td class="mendeleiev_elem" bgcolor="tomato">
+                    <div class="m_elem_weight">[223]</div>
+                    <div class="m_elem_id">Fr</div>
+                    <div class="m_elem_num">87</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightsalmon">
+                    <div class="m_elem_weight">226,025</div>
+                    <div class="m_elem_id">Ra</div>
+                    <div class="m_elem_num">88</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[227]-[256]</div> 
+                    <div class="m_elem_id">Ac-Lr</div>
+                    <div class="m_elem_num">89-103</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[265]</div>
+                    <div class="m_elem_id">Rf</div>
+                    <div class="m_elem_num">104</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[268]</div>
+                    <div class="m_elem_id">Db</div>
+                    <div class="m_elem_num">105</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[271]</div>
+                    <div class="m_elem_id">Sg</div>
+                    <div class="m_elem_num">106</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[267]</div>
+                    <div class="m_elem_id">Bh</div>
+                    <div class="m_elem_num">107</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[269]</div>
+                    <div class="m_elem_id">Hs</div>
+                    <div class="m_elem_num">108</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[278]</div>
+                    <div class="m_elem_id">Mt</div>
+                    <div class="m_elem_num">109</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[281]</div>
+                    <div class="m_elem_id">Ds</div>
+                    <div class="m_elem_num">110</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[281]</div>
+                    <div class="m_elem_id">Rg</div>
+                    <div class="m_elem_num">111</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightpink">
+                    <div class="m_elem_weight">[285]</div>
+                    <div class="m_elem_id">Cn</div>
+                    <div class="m_elem_num">112</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">[284]</div>
+                    <div class="m_elem_id">Nh</div>
+                    <div class="m_elem_num">113</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">[289]</div>
+                    <div class="m_elem_id">Fl</div>
+                    <div class="m_elem_num">114</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">[288]</div>
+                    <div class="m_elem_id">Mc</div>
+                    <div class="m_elem_num">115</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="silver">
+                    <div class="m_elem_weight">[293]</div>
+                    <div class="m_elem_id">Lv</div>
+                    <div class="m_elem_num">116</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="khaki">
+                    <div class="m_elem_weight">[294]</div>
+                    <div class="m_elem_id">Ts</div>
+                    <div class="m_elem_num">117</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="lightblue">
+                    <div class="m_elem_weight">[294]</div>
+                    <div class="m_elem_id">Og</div>
+                    <div class="m_elem_num">118</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="none_elem" colspan="3"></td>
+                <td class="elems_title" bgcolor="violet" align="center">Латиноиды</td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">138,91</div>
+                    <div class="m_elem_id">La</div>
+                    <div class="m_elem_num">57</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">140,12</div>
+                    <div class="m_elem_id">Ce</div>
+                    <div class="m_elem_num">58</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">140,90</div>
+                    <div class="m_elem_id">Pr</div>
+                    <div class="m_elem_num">59</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">144,24</div>
+                    <div class="m_elem_id">Nd</div>
+                    <div class="m_elem_num">60</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">[145]</div>
+                    <div class="m_elem_id">Pm</div>
+                    <div class="m_elem_num">61</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">150,4</div>
+                    <div class="m_elem_id">Sm</div>
+                    <div class="m_elem_num">62</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">151,96</div>
+                    <div class="m_elem_id">Eu</div>
+                    <div class="m_elem_num">63</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">157,25</div>
+                    <div class="m_elem_id">Gd</div>
+                    <div class="m_elem_num">64</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">158,925</div>
+                    <div class="m_elem_id">Tb</div>
+                    <div class="m_elem_num">65</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">162,50</div>
+                    <div class="m_elem_id">Dy</div>
+                    <div class="m_elem_num">66</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">164,93</div>
+                    <div class="m_elem_id">Ho</div>
+                    <div class="m_elem_num">67</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">167,26</div>
+                    <div class="m_elem_id">Er</div>
+                    <div class="m_elem_num">68</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">168,93</div>
+                    <div class="m_elem_id">Tm</div>
+                    <div class="m_elem_num">69</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">173,04</div>
+                    <div class="m_elem_id">Yb</div>
+                    <div class="m_elem_num">70</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="violet">
+                    <div class="m_elem_weight">174,97</div>
+                    <div class="m_elem_id">Lu</div>
+                    <div class="m_elem_num">71</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="none_elem" colspan="3"></td>
+                <td class="elems_title" bgcolor="palevioletred" align="center">Актиноиды</td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[227]</div>
+                    <div class="m_elem_id">Ac</div>
+                    <div class="m_elem_num">89</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">232,038</div>
+                    <div class="m_elem_id">Th</div>
+                    <div class="m_elem_num">90</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[231]</div>
+                    <div class="m_elem_id">Pa</div>
+                    <div class="m_elem_num">91</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">238.03</div>
+                    <div class="m_elem_id">U</div>
+                    <div class="m_elem_num">92</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[237]</div>
+                    <div class="m_elem_id">Np</div>
+                    <div class="m_elem_num">93</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[244]</div>
+                    <div class="m_elem_id">Pu</div>
+                    <div class="m_elem_num">94</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[243]</div>
+                    <div class="m_elem_id">Am</div>
+                    <div class="m_elem_num">95</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[247]</div>
+                    <div class="m_elem_id">Cm</div>
+                    <div class="m_elem_num">96</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[247]</div>
+                    <div class="m_elem_id">Bk</div>
+                    <div class="m_elem_num">97</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[251]</div>
+                    <div class="m_elem_id">Cf</div>
+                    <div class="m_elem_num">98</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[254]</div>
+                    <div class="m_elem_id">Es</div>
+                    <div class="m_elem_num">99</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[257]</div>
+                    <div class="m_elem_id">Fm</div>
+                    <div class="m_elem_num">100</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[258]</div>
+                    <div class="m_elem_id">Md</div>
+                    <div class="m_elem_num">101</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[255]</div>
+                    <div class="m_elem_id">No</div>
+                    <div class="m_elem_num">102</div>
+                </td>
+                <td class="mendeleiev_elem" bgcolor="palevioletred">
+                    <div class="m_elem_weight">[256]</div>
+                    <div class="m_elem_id">Lr</div>
+                    <div class="m_elem_num">103</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
 </html>
