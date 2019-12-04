@@ -1,7 +1,6 @@
+#!/usr/bin/php
 <?php
-  for ($i = 0; $i < 10; $i++) {
-    for ($j = 0; $j < 100; $j++)
+  for ($i = 0; $i < 1000; $i++)
       echo "X";
-    echo PHP_EOL;
-  }
+  echo PHP_EOL;
 ?>
