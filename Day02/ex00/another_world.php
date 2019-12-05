@@ -2,7 +2,5 @@
 <?php
   if ($argc < 2)
     exit;
-  $ret = array_filter(explode(' ' || '\t', trim($str)));
-  return $ret;
-  }
+  echo trim(preg_replace("/[ \t]+/", " ", $argv[1])) . PHP_EOL;
 ?>
