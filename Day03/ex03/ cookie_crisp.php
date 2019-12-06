@@ -1,14 +1,15 @@
 <?php
   switch ($_GET["action"]){
     case "set":
-      setcookie($_GET["name"], $_GET["value"]);
+      if ($_GET["name"])
+        setcookie($_GET["name"], $_GET["value"], time());
       break;
     case "get":
-      if ($_COOKIE["name"])
-        echo $_COOKIE["name"]["value"] . PHP_EOL;
+      if ($_GET["name"] && $_COOKIE["name"])
+        echo $_COOKIE["name"] . PHP_EOL;
       break;
     case "del":
-
+      setcookie($_GET["name"], NULL, time());
       break;
     default:
       break;
